@@ -1,0 +1,64 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /*grid-template-rows: repeat(14, 100px);*/
+  grid-gap: 20px;
+  /*background-color: gainsboro;*/
+  /*padding: 10px;*/
+  border-radius: 10px;  
+}
+
+.table {
+  /*border: 1px solid #ffffff;*/
+  border-radius: 10px;
+  /*font-size: 30px;*/
+  text-align: center;
+  /*color: #ffffff;*/
+  background-color: gainsboro;
+}
+
+.price {
+  background-color: red;
+  padding: 20px 10px;
+  color: white;
+}
+
+.package {
+  margin: 20px;
+}
+
+.text {
+  margin: 20px 30px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border-radius: 9999px;
+  font-weight: bolder;
+  padding: 5px 40px;
+}
+
+ol {
+  margin: 1rem 3rem;
+  
+}
+
+li {
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
