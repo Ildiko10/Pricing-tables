@@ -7,19 +7,13 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /*grid-template-rows: repeat(14, 100px);*/
   grid-gap: 20px;
-  /*background-color: gainsboro;*/
-  /*padding: 10px;*/
   border-radius: 10px;  
 }
 
 .table {
-  /*border: 1px solid #ffffff;*/
   border-radius: 10px;
-  /*font-size: 30px;*/
   text-align: center;
-  /*color: #ffffff;*/
   background-color: gainsboro;
 }
 
