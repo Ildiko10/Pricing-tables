@@ -1,7 +1,5 @@
 body {
-  background-color: white;
-  margin: 0;
-  padding: 0;
+  background-color: white;  
 }
 
 .container {
@@ -23,6 +21,13 @@ body {
   color: white;
 }
 
+.price:hover {
+  filter: grayscale(10%);
+  transform: scale(1.1);
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
 .package {
   margin: 20px;
 }
@@ -31,22 +36,46 @@ body {
   margin: 20px 30px;
 }
 
-button {
-  background-color: blue;
+.button {
+  background-color: blue;  
   color: white;
+  display: inline-block;
+  text-decoration: none;
   border-radius: 9999px;
   font-weight: bolder;
   padding: 5px 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  vertical-align: middle;  
+}
+
+.button:hover {
+  background-color: white;
+  border-color: gray;
+  color: black;
+  transition: background-color .15s ease-in-out;
 }
 
 ol {
   margin: 1rem 3rem;
-  
+  list-style-type: none;
 }
 
 li {
   text-align: left;
 }
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
 
 
 
